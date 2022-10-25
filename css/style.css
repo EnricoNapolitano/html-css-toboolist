@@ -23,6 +23,10 @@ ul {
     font-size: 20px;
 }
 
+li {
+    margin: 15px 0;
+}
+
 
 /* Utilities */
 .mleft {
@@ -48,11 +52,19 @@ ul {
     margin-right: 5px;
 }
 
+.mtop {
+  margin-top: 20px;
+}
+
 .green {
     color: #048204;
 }
 
-.text-label-size {
+.red {
+    color: #ff0404;
+}
+
+.text-label {
     font-size: 15px;
     color: white;
     display: inline-block;
@@ -64,6 +76,18 @@ ul {
 
 .editorial {
     background-color: #45abea;
+}
+
+.goals {
+    background-color: #9c72e4;
+}
+
+.recruiting {
+    background-color: #64c0a9;
+}
+
+.mobile {
+    background-color: #f29e33;
 }
 
 /* Header */
