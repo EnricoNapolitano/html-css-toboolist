@@ -127,8 +127,3 @@ li {
     border-bottom: 2px solid rgb(187, 187, 187);
     line-height: 80px;
 }
-
-/* div new task */
-.new-task {
-    margin-top: 25px;
-}
