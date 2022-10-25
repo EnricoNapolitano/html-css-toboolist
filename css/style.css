@@ -1,3 +1,34 @@
-body {
-    background-color: violet;
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Generic */
+body {
+    background-color: rgb(187, 187, 187);
+}
+
+header {
+    height: 80px;
+    background-color: white;
+    line-height: 80px;
+}
+
+/* Utilities */
+
+/* Header */
+#logo-boolean {
+    height: 4.2em;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+
+.header-title {
+    display: inline;
+    font-size: 3em;
+    vertical-align: middle;
+}
+
