@@ -25,6 +25,7 @@ ul {
 
 li {
     margin: 15px 0;
+    line-height: 20px;
 }
 
 
@@ -62,6 +63,17 @@ li {
 
 .red {
     color: #ff0404;
+}
+
+.circle {
+    display: inline-block;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid;
+    font-size: 16px;
+    padding: 2px 5px;
 }
 
 .text-label {
