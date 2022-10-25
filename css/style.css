@@ -17,7 +17,18 @@ header {
     line-height: 80px;
 }
 
+ul {
+    list-style: none;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
 /* Utilities */
+.mleft {
+    margin-left: 20px;
+}
+
 .container {
     background-color: white;
     margin: 50px auto;
@@ -33,10 +44,31 @@ header {
     vertical-align: middle;
 }
 
+.mright {
+    margin-right: 5px;
+}
+
+.green {
+    color: #048204;
+}
+
+.text-label-size {
+    font-size: 15px;
+    color: white;
+    display: inline-block;
+    height: 24px;
+    padding: 2px 10px;
+    vertical-align: middle;
+    border-radius: 9px;
+}
+
+.editorial {
+    background-color: #45abea;
+}
+
 /* Header */
 #logo-boolean {
     height: 4.2em;
-    margin-left: 20px;
     vertical-align: middle;
 }
 
@@ -50,7 +82,6 @@ header {
 .button.task {
     background-color: #1e90ff;
     color: white;
-    margin-left: 20px;
 }
 
 .button.section {
@@ -65,4 +96,7 @@ header {
     line-height: 80px;
 }
 
-
+/* div new task */
+.new-task {
+    margin-top: 25px;
+}
