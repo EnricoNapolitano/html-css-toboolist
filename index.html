@@ -6,47 +6,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Enrico Napolitano">
     <meta name="description" content="website to keep track of commitments">
-    <link rel="icon" href="img/Logo.png">
+    <link rel="icon" href="img/Logo.png" type="image/png">
     <link rel="stylesheet" href="css/style.css">
     <title>Toboolist</title>
 </head>
 <body>
     <!-- header: logo, banda, titolo -->
     <header>
-        <img src="img/Logo.png" id="logo-boolean" class="mleft" alt="Boolean's logo">
+        <img src="img/Logo.png" id="logo-boolean" alt="Boolean's logo">
         <h1 class="header-title">Toboolist</h1>
     </header>
+
     <!-- inizio main -->
     <main class="container">
-        <section class="container-buttons">
-            <div class="button task mleft">Add Task</div>
-            <div class="button section">Add Section</div>
-        </section>
+        <div class="container-buttons">
+            <a href="#" class="button task">Add Task</a>
+            <a href="#" class="button section">Add Section</a>
+        </div>
          <!-- new task -->
-        <div class="new-task mleft mtop">
+        <div class="new-task">
             <h2>&#x25BE; New Task</h2>
             <ul>
-                <li><span class="green mright circle">&#10004;</span>Quarterly Newsletter <span class="editorial text-label">Editorial</span></li>
+                <li><span class="check-mark circle">&#10004;</span>Quarterly Newsletter <span class="editorial text-label">Editorial</span></li>
             </ul>
         </div>
         <!-- today -->
-        <div class="today-list mleft mtop">
+        <div class="today-list">
             <h2>&#x25BE; Today</h2>
             <ul>
-                <li><span class="green mright circle">&#10004;</span>Recruiting blog post <span class="editorial text-label">Editorial</span></li>
-                <li><span class="green mright circle">&#10004;</span>Mobile app launch <span class="goals text-label">Q1-goals</span></li>
-                <li><span class="red mright circle">&#x2718;</span>Interview John H. <span class="recruiting text-label">Recruiting</span></li>
-                <li><span class="green mright circle">&#10004;</span>Summit update to mobile storefronts <span class="mobile text-label">Mobile</span></li>
+                <li><span class="check-mark circle">&#10004;</span>Recruiting blog post <span class="editorial text-label">Editorial</span></li>
+                <li><span class="check-mark circle">&#10004;</span>Mobile app launch <span class="goals text-label">Q1-goals</span></li>
+                <li><span class="cross-mark circle">&#x2718;</span>Interview John H. <span class="recruiting text-label">Recruiting</span></li>
+                <li><span class="check-mark circle">&#10004;</span>Summit update to mobile storefronts <span class="mobile text-label">Mobile</span></li>
             </ul>
         </div>
         <!-- upcoming -->
-        <div class="upcoming mleft mtop">
+        <div class="upcoming">
             <h2>&#x25BE; Upcoming</h2>
             <ul>
-                <li><span class="green mright circle">&#10004;</span>Schedule meeting with Alex <span class="recruiting text-label">Recruiting</span></li>
-                <li><span class="green mright circle">&#10004;</span>Homepage refresh <span class="website text-label">Website</span></li>
-                <li><span class="red mright circle">&#x2718;</span>Onboard new Sales team members <span class="sales text-label">Sales</span></li>
-                <li><span class="green mright circle">&#10004;</span>Review editorial character <span class="mobile text-label">Editorial</span></li>
+                <li><span class="check-mark circle">&#10004;</span>Schedule meeting with Alex <span class="recruiting text-label">Recruiting</span></li>
+                <li><span class="check-mark circle">&#10004;</span>Homepage refresh <span class="website text-label">Website</span></li>
+                <li><span class="cross-mark circle">&#x2718;</span>Onboard new Sales team members <span class="sales text-label">Sales</span></li>
+                <li><span class="check-mark circle">&#10004;</span>Review editorial character <span class="mobile text-label">Editorial</span></li>
             </ul>
         </div>
     </main>

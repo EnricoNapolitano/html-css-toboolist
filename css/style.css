@@ -17,6 +17,10 @@ header {
     line-height: 80px;
 }
 
+h2, ul, #logo-boolean, .button {
+ margin-left: 20px;
+}
+
 ul {
     list-style: none;
     margin-top: 10px;
@@ -24,22 +28,22 @@ ul {
 }
 
 li {
-    margin: 15px 0;
+    margin: 20px 0;
     line-height: 20px;
+}
+
+a {
+    text-decoration: none;
 }
 
 
 /* Utilities */
-.mleft {
-    margin-left: 20px;
-}
-
 .container {
     background-color: white;
     margin: 50px auto;
-    height: 650px;
-    width: 1000px;
+    width: 50%;
     border-radius: 2%;
+    padding-bottom: 20px;
 }
 
 .button {
@@ -49,20 +53,14 @@ li {
     vertical-align: middle;
 }
 
-.mright {
-    margin-right: 5px;
+.button.task {
+    background-color: #1e90ff;
+    color: white;
 }
 
-.mtop {
-  margin-top: 20px;
-}
-
-.green {
-    color: #048204;
-}
-
-.red {
-    color: #ff0404;
+.button.section {
+    border: 1px solid rgb(187, 187, 187);
+    color: rgb(187, 187, 187);
 }
 
 .circle {
@@ -74,6 +72,15 @@ li {
     border: 1px solid;
     font-size: 16px;
     padding: 2px 5px;
+    margin-right: 5px;
+}
+
+.check-mark {
+    color: #048204;
+}
+
+.cross-mark {
+    color: #ff0404;
 }
 
 .text-label {
@@ -86,6 +93,8 @@ li {
     border-radius: 9px;
 }
 
+
+/* Label colors */
 .editorial {
     background-color: #45abea;
 }
@@ -112,30 +121,21 @@ li {
 
 /* Header */
 #logo-boolean {
-    height: 4.2em;
+    height: 3.8em;
     vertical-align: middle;
 }
 
 .header-title {
     display: inline;
     font-size: 3em;
+    font-weight: 900;
     vertical-align: middle;
 }
 
 /* Main */
-.button.task {
-    background-color: #1e90ff;
-    color: white;
-}
-
-.button.section {
-    border: 1px solid rgb(187, 187, 187);
-    color: rgb(187, 187, 187);
-}
-
 .container-buttons {
     height: 80px;
-    border-radius: 10px 10px 0 0;
-    border-bottom: 2px solid rgb(187, 187, 187);
     line-height: 80px;
+    border-bottom: 2px solid rgb(187, 187, 187);
+    margin-bottom: 40px;
 }
